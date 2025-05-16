@@ -30,6 +30,10 @@ backend $ npx drizzle-kit generate
 backend $ npx drizzle-kit migrate
 ```
 
+```
+backend $ npm i cors
+```
+
 - https://orm.drizzle.team/docs/get-started/sqlite-new
 
 ## frontend
