@@ -6,7 +6,7 @@ import { useEffect } from "react";
 export default function Home() {
   const fetchRed = async () => {
     await axios
-      .get("http://localhost:4000/", {
+      .get(process.env.DATABASE_URI + "/", {
         headers: {
           "Content-Type": "application/json",
         },
