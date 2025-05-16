@@ -1,24 +1,28 @@
 # Alfabeticament Node
 
+## backend
+
 ```
-$ npm init -y
+backend $ npm init -y
 ```
 
 ```
-$ npm i express --save
-$ npm i -D typescript @types/express @types/node
-$ npm i -D tsx ts-node
+backend $ npm i express --save
+backend $ npm i -D typescript @types/express @types/node
+backend $ npm i -D tsx ts-node
 ```
 
 ```
-$ npm i drizzle-orm
-$ npm i -D drizzle-kit tsx
-$ npm i better-sqlite3
+backend $ npm i drizzle-orm
+backend $ npm i -D drizzle-kit tsx
+backend $ npm i better-sqlite3
 ```
 
 ```
-$ npx drizzle-kit push
-$ npx drizzle-kit generate
+backend $ npx drizzle-kit push
+backend $ npx drizzle-kit generate
 
-$ npx drizzle-kit migrate
+backend $ npx drizzle-kit migrate
 ```
+
+- https://orm.drizzle.team/docs/get-started/sqlite-new
