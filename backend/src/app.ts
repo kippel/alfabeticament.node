@@ -1,6 +1,8 @@
 import express, { Request, Response } from 'express';
 import { db } from "./db/db";
 import { users } from "./db/schema";
+import cors from "cors"
+
 
 import auth from "./router/auth";
 
@@ -9,6 +11,7 @@ const app = express();
 
 
 app.use(express.json());
+app.use(cors())
 
 app.use('/auth', auth)
 
