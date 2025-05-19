@@ -8,7 +8,8 @@
     "start": "node dist/server.js",
     "test": "jest",
     "drizzle:generate": "drizzle-kit generate:sqlite",
-    "drizzle:migrate": "drizzle-kit migrate"
+    "drizzle:migrate": "drizzle-kit migrate",
+    "seed": "ts-node src/seed/seed.ts"
   },
   "keywords": [],
   "author": "",
