@@ -5,39 +5,16 @@
 ![Next.js Badge](https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=fff&style=for-the-badge)
 ![GitHub Badge](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=for-the-badge)
 
-## backend
+```
+frontend $ mkdir .env
+frontend $ cat .env
 
-```
-backend $ npm init -y
-```
+    DATABASE_URI=http://localhost:4000
 
-```
-backend $ npm i express --save
-backend $ npm i -D typescript @types/express @types/node
-backend $ npm i -D tsx ts-node
-```
+frontend $ npm install
 
-```
-backend $ npm i drizzle-orm
-backend $ npm i -D drizzle-kit tsx
-backend $ npm i better-sqlite3
-```
 
-```
-backend $ npx drizzle-kit push
+backend $ npm install
 backend $ npx drizzle-kit generate
-
-backend $ npx drizzle-kit migrate
-```
-
-```
-backend $ npm i cors
-```
-
-- https://orm.drizzle.team/docs/get-started/sqlite-new
-
-## frontend
-
-```
-$ npx create-next-app@latest frontend
+backend $ npx drizzle-kit push
 ```
